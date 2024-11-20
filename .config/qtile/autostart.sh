@@ -5,7 +5,7 @@ cbatticon -u 5 &
 # systray volume
 volumeicon &
 # wallpaper
-feh --bg-scale ~/cyber.png  
+feh --bg-scale ~/.config/wallpaper/cyber.png  
 
 # opacitividad
 picom --backend glx &

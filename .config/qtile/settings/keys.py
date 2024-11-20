@@ -69,7 +69,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
 
     # Menu
     #([mod], "m", lazy.spawn("dmenu_run -b -i -fn \"Cantarell-15\" -nb \"#000000\" -nf \"#a06666\" -p \"start-app\" -sb \"#3F575B\"")),
-    ([mod], "m", lazy.spawn("dmenu_run -b -i -fn \"Cantarell-18\" -nb \"#000000\" -nf \"#0ccdd7\" -p \"start-app\" -sb \"#d300c4\" -sf \"#181c52\"")),
+    ([mod], "l", lazy.spawn("dmenu_run -b -i -fn \"Cantarell-18\" -nb \"#000000\" -nf \"#0ccdd7\" -p \"start-app\" -sb \"#d300c4\" -sf \"#181c52\"")),
 
     # Browser
     ([mod], "b", lazy.spawn("firefox")),
