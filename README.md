@@ -1,23 +1,27 @@
 # qtile-cyberpunk
 
 Despues de instalar un archlinux limpio ( archinstall ) 
+
 ## Descargas dependencias :
-1. Descargamos algunos paquetes utiles 
+- Descargamos algunos paquetes utiles 
 ```
-sudo pacman -S qtile git firefox code kitty feh picom dmenu fish 
+sudo pacman -S xorg git firefox code kitty feh picom dmenu fish 
 ```
-2. Descargamos el AUR ( **[yay](https://github.com/Jguer/yay?tab=readme-ov-file)** )
+- Instalar qtile
+```
+sudo pacaman -S qtile
+```
+- Descargamos el AUR ( **[yay](https://github.com/Jguer/yay?tab=readme-ov-file)** )
 ```
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
-3. Clonar mi repositorio y moverlo como .config a tu sistema : 
+- Clonar mi repositorio y moverlo como .config a tu sistema : 
 ```
 git clone https://github.com/cristhian-bot0/qtile_hacker.git
 ```
 
-Cambiar el shell con el comando **[chsh](https://www.ochobitshacenunbyte.com/2020/03/02/cambiar-la-shell-de-un-usuario-en-linux-con-chsh/)**: 
-
+Cambiar el shell con el comando **[chsh](https://www.ochobitshacenunbyte.com/2020/03/02/cambiar-la-shell-de-un-usuario-en-linux-con-chsh/)** `chsh -s /bin/fish $user$` 
 
 
 3. Descargamos las nerd fonts , opcion 64. 
